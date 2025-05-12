@@ -21,9 +21,6 @@ jobs:
         sudo apt-get install -y make gcc rpm
         sudo gem install --no-document fpm
 
-    - name: Configure
-      run: ./configure
-
     - name: Build
       run: make
 
