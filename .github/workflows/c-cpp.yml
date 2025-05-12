@@ -26,8 +26,7 @@ jobs:
 
     - name: Test
       run: |
-        make check
-        make distcheck
+        make test
 
     - name: Create install structure
       run: |
